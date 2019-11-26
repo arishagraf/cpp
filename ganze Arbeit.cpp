@@ -3,7 +3,7 @@
 
 using namespace std;
 
-class Arisha {
+class  Info{
 public:
 	int age;
 	string name;
@@ -60,7 +60,7 @@ public:
 int a(int, int);
 
 int main() {
-	Arisha b;
+	Info b;
 	a();
 	cout << "Schreiben Sie ihre Name: ";
 	cin >> b.name;
