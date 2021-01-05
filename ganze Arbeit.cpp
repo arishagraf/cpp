@@ -60,6 +60,30 @@ public:
 int a(int, int);
 
 int main() {
+	
+	
+	float usd = 2.1;
+	float euro = 2.3;
+	int money;
+	string currency;
+	int cash;
+	cout << "Welcome to online-Bank!" << endl;
+	cout << "How much money to you want to change?:" << endl;
+	cin >> money;
+	cout << "In what?: usd, euro" << endl;
+	cin >> currency;
+	if (currency == "usd") {
+		cash = money / usd;
+		cout << "Dollar: " << cash << endl;
+	}
+	else if (currency == "euro") {
+		cash = money / euro;
+		cout << "Euro: " << cash << endl;
+	}
+	cout << "Thank you for choosing our Bank.";
+	
+	
+	
 	Info b;
 	a();
 	cout << "Schreiben Sie ihre Name: ";
